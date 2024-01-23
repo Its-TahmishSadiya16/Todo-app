@@ -1,0 +1,87 @@
+/* App.css */
+/* App.css */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;background: linear-gradient(to bottom, #f2f2f2, #cccccc);
+  }
+  
+  .main-div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  figcaption {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .addItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .addItem input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .addItem input[type="text"]:focus {
+    outline: none;
+    border-color: #7e7e7e;
+  }
+  
+  .addItem .btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+  }
+  
+  .addItem .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .eachItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .eachItem h3 {
+    margin: 0;
+  }
+  
+  .eachItem .faTrash {
+    color: red;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .eachItem .faTrash:hover {
+    color: darkred;
+  }
+
+  .buttonGroup {
+    display: flex;
+    gap: 10px; /* Adjust the spacing between buttons */
+  }
+  
